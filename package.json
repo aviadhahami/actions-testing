@@ -1,0 +1,12 @@
+{
+  "name": "example-package",
+  "version": "1.0.0",
+  "description": "An example package with postinstall hook",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "echo 'Postinstall script running after yarn install --freeze-lockfile' && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
